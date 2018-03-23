@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 
-ReactDOM.render(<div>hello world</div>, document.getElementById('root'));
+import './index.css';
+import { Home } from "./Components";
+
+ReactDOM.render(<Home />, document.getElementById('root'));
