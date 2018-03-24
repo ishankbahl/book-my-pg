@@ -1,17 +1,23 @@
 import React from "react";
+import { Route } from "react-router-dom";
 
-import { Header } from "../../Components";
+import { Header, PgListing } from "../../Components";
+import WrappedComponent from "../../ComponentWrappers";
 
 class Home extends React.Component{
 
     render(){
 
         return(
-            <Header />
+            <div>
+                <Header />
+                <Route exact path="/north" component={ PgListing } />
+                <Route exact path="/south" component={ PgListing } />
+            </div>
         );
 
     }
 
 }
 
-export default Home;
+export default WrappedComponent(Home);

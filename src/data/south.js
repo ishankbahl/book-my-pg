@@ -1,4 +1,4 @@
-export const southlisting = [
+export const southListing = [
     {
         
     },

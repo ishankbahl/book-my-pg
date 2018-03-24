@@ -4,20 +4,36 @@ import Nav from "react-bootstrap/lib/Nav";
 import NavItem from "react-bootstrap/lib/NavItem";
 import NavDropdown from "react-bootstrap/lib/NavDropdown";
 import MenuItem from "react-bootstrap/lib/MenuItem";
+import { withRouter } from "react-router-dom";
+import PropTypes from "prop-types";
 
 import "./Header.css";
 
 class Header extends React.Component{
 
+    constructor(props){
+
+        super(props);
+
+        this.changeRoute = this.changeRoute.bind(this);
+
+    }
+
+    changeRoute(location){
+
+        this.props.history.push(location);
+
+    }
+
     render(){
 
         return(
-            <Navbar inverse collapseOnSelect>
+            <Navbar inverse collapseOnSelect className="pg-navbar">
                 <Navbar.Collapse id="collapse-both" >
                     <Nav>
                         <NavDropdown eventKey={1} title="LOCATIONS" id="basic-nav-dropdown">
-                            <MenuItem eventKey={1.1}>NORTH CAMPUS</MenuItem>
-                            <MenuItem eventKey={1.2}>SOUTH CAMPUS</MenuItem>
+                            <MenuItem eventKey={1.1} onClick={ () => this.changeRoute("/north") } >NORTH CAMPUS</MenuItem>
+                            <MenuItem eventKey={1.2} onClick={ () => this.changeRoute("/south") }>SOUTH CAMPUS</MenuItem>
                         </NavDropdown>
                         <NavDropdown eventKey={2} title="ABOUT US" id="basic-nav-dropdown">
                             <MenuItem eventKey={2.1}>THE EXPERIENCE</MenuItem>
@@ -52,4 +68,4 @@ class Header extends React.Component{
 
 }
 
-export default Header;
+export default withRouter(Header);

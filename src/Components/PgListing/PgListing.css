@@ -1,0 +1,15 @@
+.pg-container{
+    background-color: rgb(243,243,243);
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+.jumbo-header{
+    border: none;
+    text-align: center;
+    color: white;
+}
+.pg-jumbo{
+    margin-bottom: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

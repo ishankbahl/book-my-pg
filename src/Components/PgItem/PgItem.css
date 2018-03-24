@@ -1,0 +1,32 @@
+.data-para{
+    display: inline-block;
+}
+.place-heading{
+    font-size: 20px;
+}
+.pg-image{
+    min-height: 194px;
+    max-height: 218px;
+    margin: 0 auto;
+    width: 100%;
+    background-color: black;
+}
+.pg-content{
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    min-width: 194px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+.pg-row{
+    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    margin-right: 15px;
+    margin-left: 15px;
+    cursor: pointer;
+}

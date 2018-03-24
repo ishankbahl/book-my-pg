@@ -1,15 +1,10 @@
-export const northlisting = [
+export const northListing = [
     {
         sex: "Girls",
-        new: false,
-        Place: "Laxmi Nagar",
-        brokerage: false,
+        newPlace: false,
+        place: "Laxmi Nagar",
         nearby: "Laxmi Nagar Metro Station",
-        points: [
-            "Double sharing rooms are  available.",
-            "Gated-society with full security.",
-            "Near V3S Mall and Main market."
-        ],
+        sharing: "Double sharing rooms are available.",
         facilities: [
             "Fully furnished",
             "Delicious Meals (Three times)",
@@ -20,18 +15,41 @@ export const northlisting = [
             "Laundry Facility",
             "Terrace Area",
             "Two-wheeler parking area",
+            "Gated-society with full security.",
+            "Near V3S Mall and Main market."
         ],
         price: 6000,
         contact: {
             name: "Prafful",
             number: "9756102244",
         },
-        images: []
+        images: [],
+        thumbnail: "https://img.staticmb.com/mbphoto/property/cropped_images/2016/Aug/25/Photo_h180_w240/21922755_2_DSC_0038_180_240.jpg",
     },
     {
         sex: "Girls",
-        new: true,
+        newPlace: true,
         place: "Civil lines",
-        
+        nearby: "IP College for Women, DU and NBCC, Ambedkar College.",
+        sharing: "Double and Tripple sharing rooms are available.",
+        facilities: [
+            "Fully furnished",
+            "Delicious meals (Four times)",
+            "Small reading room",
+            "Snooker and pool table",
+            "R.O purified water",
+            "Bathroom equipped with geysers",
+            "Fully functional kitchen",
+            "High speed wifi",
+            "Laundry Facility",
+            "24*7 security and functional CCTV surveillance",
+        ],
+        price: null,
+        contact: {
+            name: "Prafful",
+            number: "9756102244",
+        },
+        images: [],
+        thumbnail: "https://lh6.googleusercontent.com/-SUFzj-Z7_P4/AAAAAAAAAAI/AAAAAAAAABQ/F6WRgAztFDA/photo.jpg",
     }
 ];

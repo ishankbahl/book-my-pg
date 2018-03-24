@@ -1,3 +1,6 @@
 #collapse-both{
     display: inline-block!important;
 }
+.pg-navbar{
+    margin-bottom: 0px;
+}
