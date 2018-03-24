@@ -134,7 +134,7 @@ export const northListing = [
         newPlace: true,
         place: "Vijay Nagar",
         nearby: "near Vijay nagar",
-        sharing: "Double and Tripple sharing rooms available",
+        sharing: "Double and Tripple sharing rooms are available",
         facilities: [
             "Fully furnished",
             "4 times delicious meals",
@@ -161,7 +161,7 @@ export const northListing = [
         newPlace: true,
         place: "Vijay Nagar",
         nearby: "near Vijay nagar",
-        sharing: "Double and Tripple sharing rooms available",
+        sharing: "Double and Tripple sharing rooms are available",
         facilities: [
             "Fully furnished",
             "4 times delicious meals",

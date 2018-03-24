@@ -1,7 +1,7 @@
 import React from "react";
 import { Route } from "react-router-dom";
 
-import { Header, PgListing } from "../../Components";
+import { Header, PgListing, PgDetail } from "../../Components";
 import WrappedComponent from "../../ComponentWrappers";
 
 class Home extends React.Component{
@@ -13,6 +13,8 @@ class Home extends React.Component{
                 <Header />
                 <Route exact path="/north" component={ PgListing } />
                 <Route exact path="/south" component={ PgListing } />
+                <Route exact path="/north/:key" component={ PgDetail } />
+                <Route exact path="/south/:key" component={ PgDetail } />
             </div>
         );
 

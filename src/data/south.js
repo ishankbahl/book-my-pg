@@ -4,7 +4,7 @@ export const southListing = [
         newPlace: true,
         place: "Greater Kailash",
         nearby: "near  Lady Shri Ram College, DU",
-        sharing: "Single, Double and Tripple sharing rooms available",
+        sharing: "Single, Double and Tripple sharing rooms are available",
         facilities: [
             "Fully furnished",
             "4 times delicious meals",
