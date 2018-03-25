@@ -3,7 +3,7 @@ export const northListing = [
         sex: "Girls",
         newPlace: false,
         place: "Laxmi Nagar",
-        nearby: "Laxmi Nagar Metro Station",
+        nearby: " Near Laxmi Nagar Metro Station",
         sharing: "Double sharing rooms are available.",
         facilities: [
             "Fully furnished",
@@ -30,7 +30,7 @@ export const northListing = [
         sex: "Girls",
         newPlace: true,
         place: "Roop nagar",
-        nearby: "near roop nagar",
+        nearby: "Near roop nagar",
         sharing: "Single, Double and Tripple sharing rooms are available",
         facilities: [
             "Fully furnished",
@@ -56,7 +56,7 @@ export const northListing = [
         sex: "Girls",
         newPlace: true,
         place: "Roop nagar",
-        nearby: "near roop nagar",
+        nearby: "Near roop nagar",
         sharing: "Single, Double and Tripple sharing rooms are available",
         facilities: [
             "Fully furnished",
@@ -81,7 +81,7 @@ export const northListing = [
         sex: "Boys",
         newPlace: true,
         place: "Shakti nagar",
-        nearby: "near shakti nagar",
+        nearby: "Near shakti nagar",
         sharing: "Single, Double and Tripple sharing rooms are available",
         facilities: [
             "Fully furnished",
@@ -106,7 +106,7 @@ export const northListing = [
         sex: "Boys",
         newPlace: true,
         place: "Shakti nagar",
-        nearby: "near shakti nagar",
+        nearby: "Near shakti nagar",
         sharing: "Single, Double and Tripple sharing rooms are available",
         facilities: [
             "Fully furnished",
@@ -133,7 +133,7 @@ export const northListing = [
         sex: "Girls",
         newPlace: true,
         place: "Vijay Nagar",
-        nearby: "near Vijay nagar",
+        nearby: "Near Vijay nagar",
         sharing: "Double and Tripple sharing rooms are available",
         facilities: [
             "Fully furnished",
@@ -160,7 +160,7 @@ export const northListing = [
         sex: "Girls",
         newPlace: true,
         place: "Vijay Nagar",
-        nearby: "near Vijay nagar",
+        nearby: "Near Vijay nagar",
         sharing: "Double and Tripple sharing rooms are available",
         facilities: [
             "Fully furnished",
@@ -185,7 +185,7 @@ export const northListing = [
         sex: "Girls",
         newPlace: true,
         place: "Civil lines",
-        nearby: "IP College for Women, DU and NBCC, Ambedkar College.",
+        nearby: "Near IP College for Women, DU and NBCC, Ambedkar College.",
         sharing: "Double and Tripple sharing rooms are available.",
         facilities: [
             "Fully furnished",
@@ -211,7 +211,7 @@ export const northListing = [
         sex: "Girls",
         newPlace: true,
         place: "Hudson Lane",
-        nearby: "near vishwavidyalaya metro station",
+        nearby: "Near vishwavidyalaya metro station",
         sharing: "Double and Tripple sharing rooms are available.",
         facilities: [
             "Fully furnished",

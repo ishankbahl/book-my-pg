@@ -3,7 +3,7 @@ export const southListing = [
         sex: "Girls",
         newPlace: true,
         place: "Greater Kailash",
-        nearby: "near  Lady Shri Ram College, DU",
+        nearby: "Near  Lady Shri Ram College, DU",
         sharing: "Single, Double and Tripple sharing rooms are available",
         facilities: [
             "Fully furnished",
@@ -29,7 +29,7 @@ export const southListing = [
         sex: "Girls",
         newPlace: true,
         place: "South Delhi",
-        nearby: "near   SDA market, IIT, GARGI COLLEGE, KAMLA NEHRU COLLEGE.",
+        nearby: "Near SDA market, IIT, GARGI COLLEGE, KAMLA NEHRU COLLEGE.",
         sharing: "Double and Tripple sharing rooms are available.",
         facilities: [
             "Fully furnished",

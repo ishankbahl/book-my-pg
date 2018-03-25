@@ -1,0 +1,21 @@
+.pg-detail-row{
+    padding: 15px;
+}
+.pg-detail-container{
+    background-color:white;
+    margin-bottom: 25px;
+}
+.pg-detail{
+    background-color: rgb(243,243,243);
+    padding-bottom: 250px;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.detail-center{
+    text-align: center;
+}
+.pg-gl{
+    display: block;
+    margin: 0 auto;
+}
