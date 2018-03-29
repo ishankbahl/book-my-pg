@@ -29,7 +29,13 @@ class Header extends React.Component{
 
         return(
             <Navbar inverse collapseOnSelect className="pg-navbar">
-                <Navbar.Collapse id="collapse-both" >
+                <Navbar.Header>
+                    <Navbar.Brand>
+                        <a href="#brand">BookMyPG</a>
+                    </Navbar.Brand>
+                    <Navbar.Toggle />
+                </Navbar.Header>
+                <Navbar.Collapse id="collapse-both">
                     <Nav>
                         <NavDropdown eventKey={1} title="LOCATIONS" id="basic-nav-dropdown">
                             <MenuItem eventKey={1.1} onClick={ () => this.changeRoute("/north") } >NORTH CAMPUS</MenuItem>
@@ -43,14 +49,6 @@ class Header extends React.Component{
                             <MenuItem eventKey={2.5}>FAQS</MenuItem>
                         </NavDropdown>
                     </Nav>
-                </Navbar.Collapse>
-                <Navbar.Header>
-                    <Navbar.Brand>
-                        <a href="#brand">BookMyPG</a>
-                    </Navbar.Brand>
-                    <Navbar.Toggle />
-                </Navbar.Header>
-                <Navbar.Collapse id="collapse-both">
                     <Nav>
                         <NavDropdown eventKey={3} title="CONTACT" id="basic-nav-dropdown">
                             <MenuItem eventKey={3.1}>TALK TO US</MenuItem>
